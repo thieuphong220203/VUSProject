@@ -16,7 +16,7 @@ html, body {
 /* HEADER */
 .header__logo .header__sloganImg {
     float: right;
-    margin: 0 120px 0 0;
+    margin-right: 120px;
 }
 
 .header__logo .header__logoImg {
@@ -25,12 +25,17 @@ html, body {
 }
 
 .header__navbar ul a {
-    text-transform: uppercase;
     text-decoration: none;
     color: #656363;
+    text-transform: uppercase; 
+    font-size: 1.13vw;
+    /* 1 em = 1.13vw */
+
+    /* font-size:16px
+    1em = 16px */
+
+    padding: 0 0.3em;
     font-weight: bold;
-    font-size: 18px;
-    padding: 0 7px;
 }
 
 .header__navbar ul {
@@ -44,7 +49,7 @@ html, body {
 
 .header__navbar ul li {
     display: inline;
-    /* margin: 0 6px; */
+  
     
 }
 
@@ -56,3 +61,8 @@ html, body {
     border-bottom: 2px solid #c6545b;
 }
 
+/* responsive chu 
+    vw, vh
+    1vw = 1/100 man hinh trinh duyet
+    laptop: 1200 tro len
+*/
