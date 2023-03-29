@@ -13,6 +13,20 @@ html, body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+h2 {
+    font-size: 25px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.line {
+    background-image: url('../img/line.png');
+    height: 25px;
+    background-position: center  center;
+    background-repeat: no-repeat;
+    margin-bottom: 16px;
+}
 /* HEADER */
 .header__logo .header__sloganImg {
     float: right;
@@ -66,3 +80,21 @@ html, body {
     1vw = 1/100 man hinh trinh duyet
     laptop: 1200 tro len
 */
+
+/* CAROUSEL */
+
+.carousel {
+    height: 500px;
+    background-image: url('../img/slider_1.png');
+    background-size: cover;
+    background-position: center center;
+    margin-top: 20px;
+}
+
+/* INTRO */
+.intro p {
+    text-align: center;
+    color: #7789ad;
+    line-height: 25px;
+    padding: 0 25px;
+}
