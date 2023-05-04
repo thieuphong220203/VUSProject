@@ -94,7 +94,56 @@ h2 {
 /* INTRO */
 .intro p {
     text-align: center;
-    color: #7789ad;
+    color: #73676e;
     line-height: 25px;
     padding: 0 25px;
+}
+
+/* PROGRAMS */
+
+.programs .programs__content h3 {
+    color: #b31c25;
+    text-transform: uppercase;
+    font-size: 1.1vw;
+    font-weight: 3px;
+    margin: 10px 0 5px;
+}
+
+.programs .programs__content p {
+    color: #887b6b;
+    font-size: 1vw;
+    margin: 0;
+}
+
+.programs__item {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+}
+
+.programs__item img {
+    width: 100%;
+    
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #b31c25;
+    color: white;
+    /* height: 146px; */
+    padding: 20px 50px;
+}
+
+.footer img {
+    float: left;
+}
+
+.footer p {
+    float: right;
+    width: 50%;
+    /* margin: 20px 0; */
+    text-align: justify;
+    word-spacing: 2px;
+   
 }
