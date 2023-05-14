@@ -126,6 +126,57 @@ h2 {
     
 }
 
+/* NEWS */
+.news__left, .news__right {
+    float: left;
+    width: 50%;
+    padding: 0 5px;
+}
+
+.news__text img {
+    width: 100%;
+    display: block ;
+}
+
+.news__text{
+    position: relative;
+}
+
+.news__text p {
+    position: absolute;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgba(0,0,0,.3);
+    /* opacity: .4; */
+    width: 100%;
+    padding: 15px 10px;
+    bottom: 8px;
+    margin: 0;
+}
+
+.news__right .news__small__item {
+    float: left;
+    width: 50%;
+    padding: 0 8.3px 12px;
+
+}
+
+.news__text hr {
+    margin: 0;
+    height: 5px;
+    background-color: #b31c25;
+    margin-top: 3px;
+}
+
+.news__left .news__text p {
+    font-size: 24px;
+}
+
+
+
+.news {
+    margin-bottom: 20px;
+}
 /* FOOTER */
 
 .footer {
